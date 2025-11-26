@@ -18,8 +18,8 @@ It also includes Linux integration script which fetches real data from Linux for
    python SJF.py
 
 ## Example Python Code Outputs:
-<img src="images/sjf_calc.png" alt="CFS Metrics" width="600">
-<img src="images/sjf_gantt_chart.png" alt="CFS Metrics" width="600">
+<img src="images/sjf_calc.png" alt="CFS Metrics" width="300">
+<img src="images/sjf_gantt_chart.png" alt="CFS Metrics" width="300">
 
 ## Linux Integration Environment
 - **OS:** Ubuntu 22.04 LTS
@@ -42,7 +42,12 @@ It also includes Linux integration script which fetches real data from Linux for
 5. The data were chosen and collected manually for analysis and visualization purposes
    
 ## Example Linux Integration Outputs:
-<img src="images/ps cmd 1.png" alt="CFS Metrics" width="600">
-<img src="images/pid 1.png" alt="CFS Metrics" width="600">
+Script 1:
+
+<img src="images/ps_cmd_1.png" alt="CFS Metrics" width="600">
+
+Script 2:
+
+<img src="images/pid_1.png" alt="CFS Metrics" width="600">
 
 
