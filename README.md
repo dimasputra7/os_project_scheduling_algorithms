@@ -29,7 +29,7 @@ It also includes Linux integration script which fetches real data from Linux for
 
 ## Running Linux Integration Scripts
 1. Connect to AWS instance via SSH:
-   ssh -i "your_key.pem" ubuntu@<ec2-ip-address>
+   ssh -i "your_key.pem" ubuntu@ec2-ip-address
 2. Navigate to the project folder:
    cd ~/scheduling_algorithms
 3. Run the Linux integration script 1:
