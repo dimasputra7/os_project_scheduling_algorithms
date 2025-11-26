@@ -19,6 +19,7 @@ It also includes Linux integration script which fetches real data from Linux for
 
 ## Example Python Code Outputs:
 ![SJF Scheduling Calculation](images/sjf_calc.png)
+<img src="images/sjf_calc.png" alt="CFS Metrics" width="600">
 ![SJF Gantt Chart](images/sjf_gantt_chart.png)
 
 ## Linux Integration Environment
