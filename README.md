@@ -17,6 +17,10 @@ It also includes Linux integration script which fetches real data from Linux for
 3. Run any python script:
    python SJF.py
 
+## Example Python Code Outputs:
+![SJF Scheduling Calculation](images/sjf_calc.png)
+![SJF Gantt Chart](images/sjf_gantt_chart.png)
+
 ## Linux Integration Environment
 - **OS:** Ubuntu 22.04 LTS
 - **Kernel:** 5.10 (or newer)
