@@ -16,6 +16,7 @@ It also includes Linux integration script which fetches real data from Linux for
    pip install -r requirements.txt
 3. Run any python script:
    python SJF.py
+4. If needed, modify the values in the *sample_processes* then run all the cells to see the results
 
 ## Example Python Code Outputs:
 <img src="images/sjf_calc.png" alt="CFS Metrics" width="300">
@@ -33,13 +34,35 @@ It also includes Linux integration script which fetches real data from Linux for
 2. Navigate to the project folder:
    cd ~/scheduling_algorithms
 3. Run the Linux integration script 1:
+   
    Script: ps -eo pid,comm,pri,ni,time,etimes
+   
    Collected data: PID
-4. Run the Linux integration script 2:
-   Script: cat proc/<pid>/sched
-   Note: change <pid> with any PID numbers from script 1
+   
+   Explanation:
+   - *ps* = Process status (shows active processes on the system)
+   - *-e* = List all processes
+   - *pid* = Process ID (unique process indetifier)
+   - *comm* = Command name (the name of executable or process)
+   - *pri* = Priority (the kernel's scheduling priority, lower number is higher priority)
+   - *ni* = Nice value (Adjustable priority, lower number is higher priority)
+   - *time* = CPU time used by the process
+   - *etimes* = Elapsed time (the duration of the process has been running)
+   
+5. Run the Linux integration script 2:
+   Script: cat proc/*pid*/sched
+   
+   Note: change *pid* with any PID numbers from script 1
+
    Collected data: PID, vruntime, sum_exec_runtime, nr_voluntary_switches, nr_involuntary_switches, load.weight, policy
-5. The data were chosen and collected manually for analysis and visualization purposes
+
+   Explanation:
+   - *cat* = Display all the contents of a file
+   - */proc* = A virtual filesystem (contains all the information of every running process)
+   - *pid* = Process ID (unique process identifier)
+   - *sched* = Scheduler statistics
+     
+7. The data were chosen and collected manually for analysis and visualization purposes
    
 ## Example Linux Integration Outputs:
 Script 1:
