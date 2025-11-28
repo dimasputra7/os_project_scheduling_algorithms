@@ -5,7 +5,7 @@ required number of networks.
 The code uses Python’s built-in Ip address module to calculate networks, subnets,
 broadcast addresses, and usable host ranges.
 
-#Features
+##Features
 - Get network based on hosts per subnet or number of networks
 - Calculates:
   o Subnet mask
@@ -15,11 +15,11 @@ broadcast addresses, and usable host ranges.
   o Number of usable hosts
 - Displays a clear table output
   
-#Requirements
+##Requirements
 - Python 3.8+
 - No external libraries required
   
-#How to Run the file:
+##How to Run the file:
 1. Clone repository
 2. Run the script
 3. Follow the on-screen prompts:
