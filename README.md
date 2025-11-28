@@ -63,6 +63,7 @@ It also includes Linux integration script which fetches real data from Linux for
    - *etimes* = Elapsed time (the duration of the process has been running)
    
 5. Run the Linux integration script 2:
+   
    Script: cat proc/*pid*/sched
    
    Note: change *pid* with any PID numbers from script 1
@@ -75,7 +76,7 @@ It also includes Linux integration script which fetches real data from Linux for
    - *pid* = Process ID (unique process identifier)
    - *sched* = Scheduler statistics
      
-7. The data were chosen and collected manually for analysis and visualization purposes
+6. The data were chosen and collected manually for analysis and visualization purposes
    
 ## Example Linux Integration Outputs:
 Script 1:
